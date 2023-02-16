@@ -4,8 +4,26 @@
 }
 
 
+
 /* <---- BASIC ELEMENTS ----> */
 
 
 
-/* <-- HEADER VISITEKAARTJE STYLING --> */
+
+
+/* <-- MENU (NAV) STYLING --> */
+
+h1 {
+  text-transform: uppercase;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+}
+
+/* ICON MENU */
+.menu-burger {
+  margin: 0 0 0 0.1em;
+  width: 9%;
+  position: absolute;
+  left: 87%;
+  top: 1%;
+}
