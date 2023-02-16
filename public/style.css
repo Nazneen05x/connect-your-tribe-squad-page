@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+/* <---- BASIC ELEMENTS ----> */
+
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+
+}
+
+main {
+  width: 375px;
+  height: 572px;
+  background: url(/purple.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+/* <-- HEADER VISITEKAARTJE STYLING --> */
+
+section {
+  width: 304px;
+  height: 122px;
+  margin-top: 3em;
+  margin-left: 2.1em;
+  background-color: #FFFFFF;
+  border-radius: 7px;
+}
+
+img {
+  height: 100%;
+  margin-left: 2em;
+}
+
+h1 {
+  margin-top: -3em;
+  margin-left: 6em;
+  margin-bottom: 3em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* <-- FOUR CARDS STYLING --> */
+
+article {
+  width: 144px;
+  height: 133px;
+  background-color: #FFFFFF;
+  border-radius: 7px;
+  display: inline-flex;
+  margin-top: 2.1em;
+  margin-left: 2.1em;
+  margin-right: -1.4em;
+}
+
+.icon {
+  width: 75;
+  height: 60%;
+  margin-left: 2em;
+  margin-top: 1em;
+}
+
+p {
+  margin-left: -5em;
+  margin-top: 6.5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.food {
+  margin-left: -4em;
+}
+
+.book {
+  margin-left: -5.5em;
+}
+
+.connect {
+  margin-left: -5.5em;
+}
