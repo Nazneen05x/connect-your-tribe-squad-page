@@ -9,6 +9,7 @@
 :root {
   --font-title-bold: 1.7em InterBold, sans-serif;
   --font-title-regular: 1.1em InterRegular, sans-serif;
+  --font-title-medium: 1.1em Intermedium, sans-serif;
 
 }
 
@@ -61,4 +62,30 @@ h1 {
   position: absolute;
   left: 87%;
   top: 1.1%;
+}
+
+
+
+/* <-- INTRO TEKST STYLING --> */
+
+p {
+  margin-left: 0.3em;
+  font: var(--font-title-regular);
+  font-weight: 100;
+  font-size: 3em;
+}
+
+.Hello {
+  margin-top: 1em;
+  font: var(--font-title-bold);
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.squad {
+  font: var(--font-title-medium);
+  font-weight: 400;
+  font-size: 3em;
+  text-transform: uppercase;
+
 }
