@@ -26,6 +26,9 @@
 ## Gebruik 📱
 
 ## Bronnen 🌐
+<ul>
+<li>https://whois.fdnd.nl</li>
+</ul>
 
 ## Licentie 🔐🔏
 
