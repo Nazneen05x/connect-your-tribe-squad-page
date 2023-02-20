@@ -109,12 +109,12 @@ p {
     justify-content: space-between;
   }
   ul{
-    list-style-type: none;
+  list-style-type: none;
   display: flex;
   gap: 4em;
   font-family: montserrat, sans-serif;
-  margin-top: 72px;
-  margin-left: 7em;
+  margin-top: 5em;
+  margin-left: 8em;
   font-style: var(--black);
   z-index: 1;
   }
