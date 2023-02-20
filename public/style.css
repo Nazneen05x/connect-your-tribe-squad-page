@@ -97,10 +97,15 @@ p {
 }
 
 
+
+
+/* <--TABLET--> */
 @media screen and (min-width:30em) {
   .menu-burger{
     display: none;
   }
+
+
   .tablet-desktop{
     width: 100%;
     height: 300px;
@@ -108,6 +113,8 @@ p {
     flex-wrap: nowrap;
     justify-content: space-between;
   }
+
+
   ul{
   list-style-type: none;
   display: flex;
@@ -120,6 +127,8 @@ p {
   }
 }
 
+
+/* <--DESKTOP--> */
 @media  screen and (max-width:60em){
   ul{
     display: none;
