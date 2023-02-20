@@ -105,6 +105,15 @@ p {
     display: none;
   }
 
+  h1 {
+    text-transform: uppercase;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    font: var(--font-title-bold);
+    font-weight: bold;
+  }
+
+
 
   .tablet-desktop{
     width: 100%;
