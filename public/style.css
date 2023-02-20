@@ -95,3 +95,10 @@ p {
   height: 37em;
   margin-left: -4em;
 }
+
+
+@media screen and (min-width:30em) {
+  .menu-burger{
+    display: none;
+  }
+}
