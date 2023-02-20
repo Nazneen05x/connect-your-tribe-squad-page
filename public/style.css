@@ -114,7 +114,7 @@ p {
   gap: 4em;
   font-family: montserrat, sans-serif;
   margin-top: 2em;
-  margin-right: 8em;
+  margin-right: -8em;
   font-style: var(--black);
   z-index: 1;
   }
