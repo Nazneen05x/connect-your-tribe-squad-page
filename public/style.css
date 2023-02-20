@@ -136,6 +136,11 @@ p {
   font-style: var(--black);
   z-index: 1;
   }
+
+  .nederland {
+    height: 37em;
+    margin-left: 10em;
+  }
 }
 
 
