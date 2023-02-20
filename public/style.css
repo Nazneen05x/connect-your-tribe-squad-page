@@ -108,7 +108,7 @@ p {
   h1 {
     text-transform: uppercase;
     margin-top: -10em;
-    margin-left: 3em;
+    margin-left: 2em;
     font: var(--font-title-bold);
     font-weight: bold;
   }
