@@ -101,6 +101,9 @@ p {
   .menu-burger{
     display: none;
   }
+  .tablet-desktop{
+    
+  }
 }
 
 @media  screen and (max-width:60em){
