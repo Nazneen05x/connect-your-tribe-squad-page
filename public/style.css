@@ -119,7 +119,8 @@ p {
   list-style-type: none;
   display: flex;
   gap: 3em;
-  font-family: montserrat, sans-serif;
+  font: var(--font-title-regular);
+  font-weight: 100;
   margin-top: 2em;
   margin-left: 11em;
   font-style: var(--black);
