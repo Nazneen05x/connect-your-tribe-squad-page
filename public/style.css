@@ -108,6 +108,16 @@ p {
     flex-wrap: nowrap;
     justify-content: space-between;
   }
+  ul{
+    list-style-type: none;
+  display: flex;
+  gap: 4em;
+  font-family: montserrat, sans-serif;
+  margin-top: 72px;
+  margin-left: 7em;
+  font-style: var(--black);
+  z-index: 1;
+  }
 }
 
 @media  screen and (max-width:60em){
