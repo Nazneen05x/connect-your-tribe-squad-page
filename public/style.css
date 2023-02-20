@@ -102,3 +102,9 @@ p {
     display: none;
   }
 }
+
+@media  screen and (max-width:60em){
+  ul{
+    display: none;
+  }
+}
