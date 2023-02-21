@@ -144,10 +144,10 @@ p {
   }
 
   .vormblauw{
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     background-color: #555;
-    margin-left: 30em;
+    margin-left: -30em;
   }
 }
 
