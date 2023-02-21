@@ -138,6 +138,7 @@ p {
   }
 
   .nederland {
+    margin-top: -45;
     height: 43em;
     margin-left: 30em;
     
@@ -174,7 +175,7 @@ p {
     border-radius: 10px;
     opacity: 10em;
     margin-left: 50em;
-    margin-top: 35em;
+    
   }
   
 }
