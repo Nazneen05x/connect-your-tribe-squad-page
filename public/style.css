@@ -148,8 +148,6 @@ p {
     font: var(--font-title-regular);
     font-weight: 100;
     font-size: 3em;
-    text-align: justify;
-    text-justify: inter-word;
 }
   
   }
