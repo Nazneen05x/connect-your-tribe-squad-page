@@ -162,7 +162,7 @@ p {
   
   .squad {
     font: var(--font-title-medium);
-    font-weight: 400;
+    font-weight: 200;
     font-size: 3em;
     text-transform: uppercase;
   
