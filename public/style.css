@@ -188,6 +188,43 @@ p {
     top:-15em;
 }
 
+article {
+  position: relative;
+  width: 10rem;
+  height: 10rem;
+  padding: 1rem;
+  color: slate;
+  text-align: center;
+}
+
+article h2 {
+  font-size: 1rem;
+  font-weight: normal;
+}
+article img {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+}
+article a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 2rem;
+  display: block;
+}
+article a:hover {
+  background: #fff2;
+}
+article a span {
+  display: none;
+}
+
+
+
+
 }
 
 
