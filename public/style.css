@@ -179,8 +179,16 @@ p {
     
   }
   
+  .vormblauw{
+    background-color: #D9D9D9;
+    width: 206px;
+    height: 390px;
+    border-radius: 10px;
+    opacity: 10em;
+    margin-left: 50em;
+    top:-15em;
+}
 
-  
 }
 
 
