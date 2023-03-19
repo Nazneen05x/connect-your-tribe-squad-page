@@ -40,8 +40,30 @@ app.get('/all', (request, response) => {
 })
 
 
+app.get('/squad a', (request, response) => {
+  console.log(request.query.squad)
+
+  let slug = request.query.squad || 'squad-a-2022'
+  let orderBy = request.query.orderBy || 'name'
+  let squadUrl = url + slug + '?orderBy=' + orderBy + '&direction=ASC'
+
+  fetchJson(squadUrl).then((data) => {
+    response.render('squad a', data)
+  })
+})
 
 
+app.get('/squat c', (request, response) => {
+  console.log(request.query.squad)
+
+  let slug = request.query.squad || 'squat-c-2022'
+  let orderBy = request.query.orderBy || 'name'
+  let squadUrl = url + slug + '?orderBy=' + orderBy + '&direction=ASC'
+
+  fetchJson(squadUrl).then((data) => {
+    response.render('squat c', data)
+  })
+})
 
 // Stel het poortnummer in waar express op gaat luisteren
 app.set("port", process.env.PORT || 8000);
