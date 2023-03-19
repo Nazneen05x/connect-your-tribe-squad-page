@@ -27,7 +27,7 @@ app.get('/', (request, response) => {
 })
 
 
-app.get('all', (request, response) => {
+app.get('/all', (request, response) => {
   console.log(request.query.squad)
 
   let slug = request.query.squad || 'squad-b-2022'
