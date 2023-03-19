@@ -26,6 +26,23 @@ app.get('/', (request, response) => {
   })
 })
 
+
+app.get('all', (request, response) => {
+  console.log(request.query.squad)
+
+  let slug = request.query.squad || 'squad-b-2022'
+  let orderBy = request.query.orderBy || 'name'
+  let squadUrl = url + slug + '?orderBy=' + orderBy + '&direction=ASC'
+
+  fetchJson(squadUrl).then((data) => {
+    response.render('all', data)
+  })
+})
+
+
+
+
+
 // Stel het poortnummer in waar express op gaat luisteren
 app.set("port", process.env.PORT || 8000);
 
