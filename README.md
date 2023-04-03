@@ -31,7 +31,7 @@
 3. Code open in VScode of andere editor
 4. Terminal open
 5. Npm install (typen in je terminal, daarna enter druken)
-6. Npm start ( na het installeren type je npm start in je terminal)
+6. Npm start ( na het installeren, type je npm start in je terminal)
 7. Localhost:8000 (live link om je website te zien, link van de server)
 8. Project live zetten met cyclic
 
