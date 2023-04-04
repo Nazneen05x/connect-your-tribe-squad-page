@@ -3,14 +3,14 @@
 <main>
     <h1><%= squad.name %></h1>
   
-    <a href="/squad a">Squad A</a>
-    <a href="/?squad=squad-b-2022">Squad B</a>
-    <a href="/squat c">Squad C</a>
+    <button><a href="/squad-a">Squad A</a></button>
+    <button><a href="/all">Squad B</a></button>
+    <button><a href="/squat-c">Squad C</a></button>
     <hr />
   
-    <a href="/?squad=<%= squad.slug %>&orderBy=name">Sorteer op naam</a>
+
     <hr />
-    <section>
+    <section class="members">
       <!-- Hier komen de members -->
       <% squad.members.forEach(member => { %>
       <article>

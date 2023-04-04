@@ -27,6 +27,8 @@ app.get('/', (request, response) => {
 })
 
 
+
+
 app.get('/all', (request, response) => {
   console.log(request.query.squad)
 
@@ -40,7 +42,7 @@ app.get('/all', (request, response) => {
 })
 
 
-app.get('/squad a', (request, response) => {
+app.get('/squad-a', (request, response) => {
   console.log(request.query.squad)
 
   let slug = request.query.squad || 'squad-a-2022'
@@ -48,12 +50,12 @@ app.get('/squad a', (request, response) => {
   let squadUrl = url + slug + '?orderBy=' + orderBy + '&direction=ASC'
 
   fetchJson(squadUrl).then((data) => {
-    response.render('squad a', data)
+    response.render('squad-a', data)
   })
 })
 
 
-app.get('/squat c', (request, response) => {
+app.get('/squat-c', (request, response) => {
   console.log(request.query.squad)
 
   let slug = request.query.squad || 'squat-c-2022'
@@ -61,7 +63,7 @@ app.get('/squat c', (request, response) => {
   let squadUrl = url + slug + '?orderBy=' + orderBy + '&direction=ASC'
 
   fetchJson(squadUrl).then((data) => {
-    response.render('squat c', data)
+    response.render('squat-c', data)
   })
 })
 

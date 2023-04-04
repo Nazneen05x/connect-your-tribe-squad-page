@@ -42,7 +42,10 @@
 /* <---- BASIC ELEMENTS ----> */
 
 
-
+a{
+  text-decoration: none;
+  color: black;
+}
 
 
 /* <-- MENU (NAV) STYLING --> */
@@ -64,6 +67,16 @@ h1 {
   top: 1.1%;
 }
 
+.members{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+button{
+  margin-top: 1rem;
+}
 
 
 /* <-- INTRO TEKST STYLING --> */
