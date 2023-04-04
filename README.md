@@ -20,8 +20,12 @@
 ## Kenmerken 🖇️
 
 ## Node
+Node.js is een platformonafhankelijke (open source en multiplatform) omgeving, dat bijdraagt aan het ontwikkelen van websites. Met Node kan je JavaScript buiten een browser gebruiken.
+
+> bron: https://www.cooderjobs.com/blog/wat-is-node-js
 
 ## Express
+
 
 ## EJS
 
