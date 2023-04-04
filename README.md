@@ -26,18 +26,24 @@ Node.js is een platformonafhankelijke (open source en multiplatform) omgeving, d
 
 ## Express
 
+Express(js), is een back-end webapplicatieframework voor het bouwen van RESTful API's met Node.js.
+
 
 ## EJS
 
+
+EJS is een eenvoudige sjabloontaal waarmee je HTML-opmaak kunt genereren met JavaScript.
+
 ## Installatie 🛠️
-1. Fork deze leertaak
-2. Code klonen naar Github Desktop
-3. Code open in VScode of andere editor
-4. Terminal open
-5. Npm install (typen in je terminal, daarna enter druken)
-6. Npm start ( na het installeren, type je npm start in je terminal)
-7. Localhost:8000 (live link om je website te zien, link van de server)
-8. Project live zetten met cyclic
+1. Installeer Node 18.14.0 LTS
+2. Fork deze leertaak
+3. Code klonen naar Github Desktop
+4. Code open in VScode of andere editor
+5. Terminal open
+6. Npm install (typen in je terminal, daarna enter druken)
+7. Npm start ( na het installeren, type je npm start in je terminal)
+8. Localhost:8000 (live link om je website te zien, link van de server)
+9. Project live zetten met cyclic
 
 ## Gebruik 📱
 
