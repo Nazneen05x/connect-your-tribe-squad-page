@@ -66,7 +66,7 @@ app.get('/squat c', (request, response) => {
 })
 
 // Stel het poortnummer in waar express op gaat luisteren
-app.set("port", process.env.PORT || 8000);
+app.set("port", process.env.PORT || 2000);
 
 // Start express op, haal het ingestelde poortnummer op
 app.listen(app.get("port"), function () {
