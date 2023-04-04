@@ -31,6 +31,9 @@ Express(js), is een back-end webapplicatieframework voor het bouwen van RESTful 
 
 ## EJS
 
+
+EJS is een eenvoudige sjabloontaal waarmee je HTML-opmaak kunt genereren met JavaScript.
+
 ## Installatie 🛠️
 1. Installeer Node 18.14.0 LTS
 2. Fork deze leertaak
