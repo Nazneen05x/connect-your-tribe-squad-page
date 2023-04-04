@@ -14,6 +14,7 @@ app.set("views", "./views");
 app.use(express.static("public"));
 
 // Maak een route voor de index
+// Deze route is data aan het ophalen uit de whois api
 app.get('/', (request, response) => {
   console.log(request.query.squad)
 
@@ -27,7 +28,8 @@ app.get('/', (request, response) => {
 })
 
 
-
+// Deze lossen routes horen bij mijn menu. ik haal hier de data op van alle squads+members. 
+//Ik moest deze aparte routes aanmaken om zo mijn ejs paginas te linken aan het menu
 
 app.get('/all', (request, response) => {
   console.log(request.query.squad)
@@ -66,6 +68,8 @@ app.get('/squat-c', (request, response) => {
     response.render('squat-c', data)
   })
 })
+
+
 
 // Stel het poortnummer in waar express op gaat luisteren
 app.set("port", process.env.PORT || 2000);

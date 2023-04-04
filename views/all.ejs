@@ -11,8 +11,9 @@
 
     <hr />
     <section class="members">
-      <!-- Hier komen de members -->
+      <!-- Met de loop Foreach haal ik alle data op van alle members. Hij gaat langs alle members -->
       <% squad.members.forEach(member => { %>
+      <!-- Hier zie je de data die ik graag op de pagina wil hebben.  -->
       <article>
         <% if (member.avatar) { %>
         <img src="<%= member.avatar %>" alt="De avatar van <%= member.name %>" />
