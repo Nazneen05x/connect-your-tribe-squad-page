@@ -1,7 +1,9 @@
 > [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # ✨FDND-SQUADPAGE B✨
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+
+
+<img width="900" alt="Scherm­afbeelding 2023-04-04 om 22 37 18" src="https://user-images.githubusercontent.com/112861261/229914998-332f7814-35c0-41d1-a00e-f82503544e54.png">
 
 ## Inhoudsopgave 📚
 
@@ -12,7 +14,7 @@
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
 
-## Beschrijving 📑
+## Beschrijving 📑 / Gebruik 📱
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
@@ -45,7 +47,7 @@ EJS is een eenvoudige sjabloontaal waarmee je HTML-opmaak kunt genereren met Jav
 8. Localhost:8000 (live link om je website te zien, link van de server)
 9. Project live zetten met cyclic
 
-## Gebruik 📱
+
 
 ## Bronnen 🌐
 <ul>
