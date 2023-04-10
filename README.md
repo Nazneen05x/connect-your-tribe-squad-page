@@ -15,9 +15,8 @@
   * [Licentie](#licentie)
 
 ## Beschrijving 📑 (Gebruik 📱)
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+
+Het doel van deze leertaak is het redesign van je squad page op basis van een bestaande APi (whois) en sorteren en filteren. Op dit moment kun je alleen filteren (sorteren) op squads.
 
 ## Kenmerken 🖇️
 
