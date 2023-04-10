@@ -16,7 +16,7 @@
 
 ## Beschrijving 📑 (Gebruik 📱)
 
-Het doel van deze leertaak is het redesign van je squad page op basis van een bestaande APi (whois) en sorteren en filteren. Op dit moment kun je alleen filteren (sorteren) op squads.
+Het doel van deze leertaak is het redesign van je squad page op basis van een bestaande APi (whois) en sorteren en filteren. Op dit moment kun je alleen filteren (sorteren) op squads. Squad page kan je bekijken op alle schermen
 
 ## Kenmerken 🖇️
 
